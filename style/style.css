@@ -84,12 +84,10 @@ header {
 
 .nav-item {
     position: relative;
-    transition-duration: 0.2s;
 }
 
 .nav-link:hover {
-    transition-duration: 0.2s;
-    border-bottom: 1px solid white;
+    transition: color 0.5s ease-out;
     color: #1e6860;
 }
 
@@ -198,6 +196,16 @@ main {
     text-align: center;
     flex-grow: 1;
     padding: 10px 20px;
+}
+
+.hero-nav-link {
+    padding: 5px;
+}
+
+.hero-nav-link:hover{
+    color: #1e6860;
+    transition-duration: 0.2s;
+    border-bottom: 3px solid #1e6860;
 }
 
 
