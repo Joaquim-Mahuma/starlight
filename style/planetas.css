@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header {
+    background-image: none;
+
+    margin-bottom: 50px;
+}
+
+
+/*----------  PLANET CONTAINER  ----------*/
+
+
+.planet-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-bottom: 200px;
+}
+
+.planet-title {
+    font-size: 4.5rem;
+
+    margin-bottom: 5px;
+}
+
+.planet-description {
+    max-width: 500px;
+}
+
+.planet-img {
+    max-width: 512px;
+}

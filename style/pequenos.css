@@ -1,0 +1,44 @@
+header {
+    background-image: none;
+
+    margin-bottom: 150px;
+}
+
+.pequenos-container {
+    margin:0px  auto 150px;
+
+    max-width: 1200px;
+}
+
+.pequenos-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pequenos-title {
+    text-align: center;
+    font-size: 3rem;
+
+    margin-bottom: 60px;
+    max-width: 800px;
+}
+
+.pequenos-text {
+    text-align: center;
+
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+
+.pequenos-img {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.pequenos-text-img {
+    text-align: center;
+
+    max-width: 700px;
+    margin-bottom: 200px;
+}
