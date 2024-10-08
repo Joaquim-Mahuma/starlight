@@ -63,7 +63,7 @@ body {
 
 header {
     background-image: url('../images/wallpaperflare.com_wallpaper\ \(10\).jpg');
-    background-position: center 2%;
+    background-position: center 6%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -88,7 +88,7 @@ header {
 
 .nav-link:hover {
     transition: color 0.5s ease-out;
-    color: #1e6860;
+    color: #38cbbc;
 }
 
 .nav-link {
@@ -198,16 +198,15 @@ main {
     padding: 10px 20px;
 }
 
+.hero-nav-item:hover {
+    transition-duration: 0.2s;
+    background-color: #1e6860;
+    border-radius: 20px;
+}
+
 .hero-nav-link {
     padding: 5px;
 }
-
-.hero-nav-link:hover{
-    color: #1e6860;
-    transition-duration: 0.2s;
-    border-bottom: 3px solid #1e6860;
-}
-
 
 
 /*----------  ABOUT SITE  ----------*/
@@ -385,10 +384,7 @@ main {
 }
 
 
-
 /*----------  FOOTER  ----------*/
-
-
 
 
 footer {
@@ -402,8 +398,6 @@ footer {
     margin: auto;
     max-width: 1000px;
 }
-
-
 
 #logo-footer {
     font-family: var(--title);
