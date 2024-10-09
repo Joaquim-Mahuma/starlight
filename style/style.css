@@ -174,8 +174,26 @@ main {
 #hero_title {
     font-size: 6rem;
     text-align: center;
+    animation: boing 2s linear infinite ;
 
     margin-bottom: 150px;
+}
+
+@keyframes boing {
+    0% {
+        transform: translateY(0px);
+        text-shadow: 0px 0px 20px rgba(0, 255, 191, 0.607);
+    }
+
+    50% {
+        transform: translateY(8px);
+        text-shadow: 0px 0px 20px rgba(0, 255, 191, 0.807);
+    }
+
+    100% {
+        transform: translateY(0px);
+        text-shadow: 0px 0px 20px rgba(0, 255, 191, 0.924);
+    }
 }
 
 
@@ -431,6 +449,10 @@ td {
 
 .data-unique {
     border: none;
+}
+
+audio {
+    opacity: 0%;
 }
 
 

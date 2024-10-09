@@ -6,7 +6,6 @@ header {
     margin-bottom: 50px;
 }
 
-
 /*----------  PLANET CONTAINER  ----------*/
 
 
@@ -14,6 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    overflow: hidden;
 
     margin-bottom: 200px;
 }
@@ -29,17 +29,16 @@ header {
 }
 
 .planet-img {
-    animation: spin linear infinite;
+    animation: spiner 150s linear infinite;
     max-width: 512px;
 }
 
-@keyframes spin {
-    0% {
+@keyframes spiner {
+    from {
         transform: rotate(0deg);
     }
 
-    100% {
-        transform: rotate(360deg;)
+    to {
+        transform: rotate(360deg);
     }
-
 }
