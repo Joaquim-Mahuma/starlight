@@ -21,6 +21,7 @@ header {
     align-items: center;
     gap: 40px;
 
+    margin-bottom: 70px;
 }
 
 .exploracoes-iframe iframe {

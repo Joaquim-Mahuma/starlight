@@ -15,13 +15,13 @@ header {
     justify-content: space-around;
     overflow: hidden;
 
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .planet-title {
     font-size: 4.5rem;
 
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .planet-description {
@@ -41,4 +41,25 @@ header {
     to {
         transform: rotate(360deg);
     }
+}
+
+.planet-table-container {
+    overflow-x: auto;
+    margin-bottom: 200px;
+    margin: auto;
+}
+
+.planet-table {
+    border-collapse: collapse;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+.planet-table td,th {
+    border: 1px solid #f2f2f2a1;
+}
+
+.planet-table td {
+    font-size: 1rem;
 }
