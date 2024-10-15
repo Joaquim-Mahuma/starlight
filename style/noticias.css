@@ -24,7 +24,11 @@ header {
 .news-card {
     background-color: #1e686156;
     border-radius: 15px;
-    
+    transition: 0.5s;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
 }
 
 .news-img {

@@ -169,7 +169,7 @@ header {
 #hero_title {
     font-size: 6rem;
     text-align: center;
-    animation: boing 2s linear infinite ;
+    animation: boing  2s linear infinite ;
 
     margin-bottom: 150px;
 }
@@ -206,14 +206,19 @@ header {
 .hero-nav-item {
     z-index: 999;
     background-image: none;
+    transition: all 0.5s;
     text-align: center;
     flex-grow: 1;
+    border-radius: 10px;
+
     padding: 10px 20px;
 }
 
 .hero-nav-item:hover {
     transition: 0.2s linear;
     background-color: #1e6860;
+    border-radius: 10px;
+    transform: translateY(-10px);
 }
 
 .hero-nav-link {
@@ -365,6 +370,7 @@ header {
 .adventures-btn:hover {
     background-color: #f2f2f2;
     color: #1e6860;
+    border: 1px solid #1e6860;
 }
 
 .adventures-img {
